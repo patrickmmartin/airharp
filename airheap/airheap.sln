@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "airheap", "airheap.vcxproj", "{8BF4175C-BEA2-4008-8E40-35E94D414891}"
+	ProjectSection(ProjectDependencies) = postProject
+		{100AACE3-A324-4873-A3DA-97ECF2542F26} = {100AACE3-A324-4873-A3DA-97ECF2542F26}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "muskit", "..\..\muskit\muskit\muskit.vcxproj", "{100AACE3-A324-4873-A3DA-97ECF2542F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF4175C-BEA2-4008-8E40-35E94D414891}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8BF4175C-BEA2-4008-8E40-35E94D414891}.Debug|Win32.Build.0 = Debug|Win32
+		{8BF4175C-BEA2-4008-8E40-35E94D414891}.Release|Win32.ActiveCfg = Release|Win32
+		{8BF4175C-BEA2-4008-8E40-35E94D414891}.Release|Win32.Build.0 = Release|Win32
+		{100AACE3-A324-4873-A3DA-97ECF2542F26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{100AACE3-A324-4873-A3DA-97ECF2542F26}.Debug|Win32.Build.0 = Debug|Win32
+		{100AACE3-A324-4873-A3DA-97ECF2542F26}.Release|Win32.ActiveCfg = Release|Win32
+		{100AACE3-A324-4873-A3DA-97ECF2542F26}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
